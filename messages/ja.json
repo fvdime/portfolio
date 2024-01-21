@@ -1,0 +1,41 @@
+{
+  "Index": {
+    "title": "Hello world!",
+    "AuthPage": {
+      "RegisterHeader": "サインアップ",
+      "LoginHeader": "サインイン",
+      "Username": "ユーザー名",
+      "Name": "お名前",
+      "Email": "メール",
+      "Password": "パスワード",
+      "RegisterButtonLabel": "登録する",
+      "LoginButtonLabel": "ログイン",
+      "RegisterFooterLabel": "アカウントを持ちですか？",
+      "LoginFooterLabel": "登録されていない？",
+      "LoginFooterLink": " アカウントを作成する",
+      "RegisterFooterLink": "アカウントにログイン"
+    },
+    "LandingPage": {
+      "AboutUsTitle": "みんなのためのプラットフォーム",
+      "AboutUs": " .moai.は、ユーザのみなさんからヒントを得て作成された書くますプラットフォームです。オープンソース、フリー、問題の書くますを行うことができます。",
+      "Title": "今すぐ始める！",
+      "LoginButton": "サインイン",
+      "RegisterButton": "登録する",
+      "FooterAboutLink": "ついて",
+      "FooterContactLink": "お問合せ",
+      "FooterSourceLink": "ソースコード"
+    },
+    "FeedPage": {
+      "Navbar": {
+        "Search": "検索．．．",
+        "Modal": {
+          "Profile": "プロフィール",
+          "Settings": "ユーザ設定",
+          "Logout": "ログアウト",
+          "ContactLink": "お問合せ",
+          "SourceLink": "ソースコード"
+        }
+      }
+    }
+  }
+}

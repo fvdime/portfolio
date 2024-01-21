@@ -1,0 +1,41 @@
+{
+  "Index": {
+    "title": "Hola Mundo!",
+    "AuthPage": {
+      "RegisterHeader": "Crea una cuenta nueva",
+      "LoginHeader": "Ingrese a su cuenta",
+      "Username": "Usuario",
+      "Name": "Nombre",
+      "Email": "Dirección de correo electrónico",
+      "Password": "Contraseña",
+      "RegisterButtonLabel": "Registrarse",
+      "LoginButtonLabel": "Acceder",
+      "RegisterFooterLabel": "¿Ya tienes una cuenta?",
+      "LoginFooterLabel": "¿No tienes una cuenta?",
+      "LoginFooterLink": "Crea una cuenta",
+      "RegisterFooterLink": "Acceder"
+    },
+    "LandingPage": {
+      "AboutUsTitle": "Una plataforma para todos",
+      "AboutUs": ".moai. es una plataforma social construida con la inspiración de nuestros usuarios. Es de código abierto, gratuito y te permite hacer cualquier pregunta que te venga a la mente.",
+      "Title": "Empezar!",
+      "LoginButton": "Acceder",
+      "RegisterButton": "Registrarse",
+      "FooterAboutLink": "Sobre",
+      "FooterContactLink": "Contáctenos",
+      "FooterSourceLink": "Código Fuente"
+    },
+    "FeedPage": {
+      "Navbar": {
+        "Search": "Buscar...",
+        "Modal": {
+          "Profile": "Perfil",
+          "Settings": "Ajustes de Usuario",
+          "Logout": "Cerrar Sesión",
+          "ContactLink": "Contáctenos",
+          "SourceLink": "Código Fuente"
+        }
+      }
+    }
+  }
+}
