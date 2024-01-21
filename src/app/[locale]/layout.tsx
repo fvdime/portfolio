@@ -16,7 +16,7 @@ export default function RootLayout({
   params: any
 }>) {
   return (
-    <html lang={locale}>
+    <html lang={locale} className="!scroll-smooth">
       <body className={inter.className}>{children}</body>
     </html>
   );
