@@ -1,40 +1,52 @@
 {
   "Index": {
-    "AuthPage": {
-      "RegisterHeader": "Registrieren Sie sich für ein neues Konto",
-      "LoginHeader": "Melden Sie sich bei Ihrem Konto an",
-      "Username": "Benutzername",
-      "Name": "Name",
+    "title": "Hello world!",
+    "Navbar": {
+      "HomeLink": "Hauptseite",
+      "AboutLink": "Über",
+      "ProjectsLink": "Projekte",
+      "ExperienceLink": "Erfahrenheit",
+      "ContactLink": "Kontakt"
+    },
+    "HeroBanner": {
+      "Title": "Hallo Ich bin Faya!",
+      "Description": "I am a full-stack developer. I enjoy building sites & apps. My focus is React (Next.js)",
+      "ContactLabel": "Kontaktiere mich",
+      "DownloadLabel": "CV Herunterladen"
+    },
+    "About": {
+      "Title": "Über mich",
+      "Description": "After earning a degree in Accounting, I embarked on a transformative journey to follow my passion for programming. Enrolling in an intensive coding bootcamp, I immersed myself in the intricacies of full-stack web development. The allure of programming lies in the thrill of problem-solving—I find immense satisfaction in unraveling complexities and crafting elegant solutions. Proficient in a robust tech stack encompassing React, Next.js, Node.js, and MongoDB, I have honed my skills in building dynamic and scalable applications. My toolkit extends to TypeScript and Prisma, adding a layer of precision to my development process. I am always eager to embrace emerging technologies and expand my knowledge base. As a tenacious learner, I thrive on challenges and stay abreast of industry trends to ensure my skills remain cutting-edge. Currently seeking a full-time position as a software developer, I am poised to contribute my expertise to innovative projects. I am excited about the prospect of collaborating with like-minded professionals and continuing my growth in the dynamic field of software development.",
+      "SecondPart": "When I am not coding, I enjoy playing video games, watching movies, and playing with my dog. I also enjoy learning new things. I am currently learning about history and philosophy. I am also learning how to play the guitar.",
+      "ThirdPart": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "SkillsTitle": "Meine Fähigkeiten"
+    },
+    "Projects": {
+      "Title": "Meine Projekte",
+      "Description": "This platform, where we focus on users asking questions and receiving answers, tried to work in an interactive and information-sharing environment. We wanted to provide the best user experience. Users can see current information and popular ones on the home page. Users can customize and edit their own profile pages. Can explain users question keys and details. Answers can be displayed on an interactive platform where users can interact."
+    },
+    "Experience": {
+      "Title": "Erfahrenheit",
+      "ExpTitle": "Praktikum",
+      "ExpDesc": "Designed websites with Next JS and React JS, making responsive designs and learning Python Django framework for Backend ",
+      "ExpCompany": "TRAIR SOFTWARE TECHNOLOGY INVESTMENTS",
+      "Duration": "Juli 2023 - Aug 2023 · 1 Monat",
+      "Location": "Balikesir, TR",
+      "EducationTitle": "Ausbildung",
+      "SchoolName": "BALIKESIR UNIVERSITY",
+      "SchoolDesc": "Bachelor of Engineering, Major in Computer Engineering",
+      "SchoolLocation": "Balikesir, TR",
+      "SchoolDuration": "2020 - Heute"
+    },
+    "Contact": {
+      "Title": "Wir bleiben in Kontakt!",
+      "Desc": "Please Don’t Hesitate to Contact Me.",
       "Email": "E-Mail-Adresse",
-      "Password": "Passwort",
-      "RegisterButtonLabel": "Registrieren",
-      "LoginButtonLabel": "Anmeldung",
-      "RegisterFooterLabel": "Sie haben bereits ein Konto?",
-      "LoginFooterLabel": "Du hast noch kein Benutzerkonto?",
-      "LoginFooterLink": "Benutzerkonto erstellen",
-      "RegisterFooterLink": "Anmeldung"
+      "TextArea": "Ihre Nachricht",
+      "ButtonLabel": "Senden"
     },
-    "LandingPage": {
-      "AboutUsTitle": "Eine Plattform für alle",
-      "AboutUs": ".moai. ist eine soziale Plattform, die mit der Inspiration unserer Benutzer erstellt wurde. Es ist Open Source, kostenlos und ermöglicht es Ihnen, jede Frage zu stellen, die Ihnen in den Sinn kommt.",
-      "Title": "Loslegen!",
-      "LoginButton": "Anmeldung",
-      "RegisterButton": "Registrieren",
-      "FooterAboutLink": "Über Uns",
-      "FooterContactLink": "Kontaktiere Uns",
-      "FooterSourceLink": "Quellcode"
-    },
-    "FeedPage": {
-      "Navbar": {
-        "Search": "Durchsuchen...",
-        "Modal": {
-          "Profile": "Profil",
-          "Settings": "Benutzereinstellungen",
-          "Logout": "Ausloggen",
-          "ContactLink": "Kontaktiere Uns",
-          "SourceLink": "Quellcode"
-        }
-      }
+    "Footer": {
+      "Content": "Hergestellt mit 𓆩❤︎𓆪 von"
     }
   }
 }
