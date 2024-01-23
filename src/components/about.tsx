@@ -28,11 +28,13 @@ const About = () => {
       transition={{ delay: 0.175 }}
       id="about"
     >
-      <h1 className="text-center uppercase font-bold text-2xl mb-4">About me</h1>
+      <h1 className="text-center uppercase font-bold text-2xl mb-4">
+        About me
+      </h1>
       <p className="mb-2 px-16 lg:px-0">
         After graduating with a degree in{" "}
-        <span className="font-semibold">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
+        <span className="font-semibold">Accounting</span>, I decided to pursue
+        my passion for programming. I enrolled in a coding bootcamp and learned{" "}
         <span className="font-medium">full-stack web development</span>.{" "}
         <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the
@@ -56,41 +58,44 @@ const About = () => {
         learning how to play the guitar.
       </p>
 
-      <div className="mt-16 w-full h-full flex flex-row justify-between items-center px-16 lg:px-0 gap-4">
+      <div className="mt-16 w-full h-full flex flex-col  md:flex-row justify-between items-center px-16 lg:px-0 gap-4">
         <Image
-        src="/3.jpg"
-        width={256}
-        height={256}
-        alt="img"
+          src="/3.jpg"
+          width={256}
+          height={256}
+          alt="img"
+          className="h-auto w-auto object-cover"
         />
-        <span className="text-end font-bold text-3xl">
+        <span className="text-center md:text-end font-bold text-3xl">
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
         </span>
       </div>
-      <div className="px-16 lg:px-0 mt-16">
-      <h1 className="text-center uppercase font-bold text-2xl mb-4">my skills</h1>
+      <div className="mt-16">
+        <h1 className="text-center uppercase font-bold text-2xl mb-4">
+          my skills
+        </h1>
         <ul className="flex flex-wrap justify-center px-4 py-2 text-sm gap-2">
           {skillsData.map((skill, index) => (
-          <motion.li
-          // bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-purple-900 to-indigo-500
-            className=" border text-whie rounded-3xl px-5 py-2 "
-            // dark:bg-white/10 dark:text-white/80
-            key={index}
-            variants={fadeInAnimationVariants}
-            initial="initial"
-            whileInView="animate"
-            viewport={{
-              once: true,
-            }}
-            custom={index}
-          >
-            {skill}
-          </motion.li>
-        ))}
+            <motion.li
+              // bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-purple-900 to-indigo-500
+              className=" border text-whie rounded-3xl px-5 py-2 "
+              // dark:bg-white/10 dark:text-white/80
+              key={index}
+              variants={fadeInAnimationVariants}
+              initial="initial"
+              whileInView="animate"
+              viewport={{
+                once: true,
+              }}
+              custom={index}
+            >
+              {skill}
+            </motion.li>
+          ))}
         </ul>
       </div>
     </motion.section>
-  )
-}
+  );
+};
 
-export default About
+export default About;

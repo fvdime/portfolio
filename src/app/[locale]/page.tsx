@@ -11,7 +11,7 @@ export default function Home() {
   const t = useTranslations('Index.LandingPage');
 
   return (
-    <main className="max-w-screen-lg mx-auto py-4 lg:px-0 text-gray-900 font-medium">
+    <main className="py-4 lg:px-0 font-medium">
       {/* dark:text-gray-50 */}
       <Navbar/>
       <HeroBanner/>

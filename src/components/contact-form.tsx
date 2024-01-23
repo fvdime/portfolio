@@ -9,7 +9,7 @@ const ContactForm = () => {
     id='contact'
     className='max-w-screen-sm mx-auto px-16 lg:px-0 my-16'
     >
-      <span className='w-full flex flex-row justify-evenly items-center my-4'>
+      <span className='w-full flex flex-col md:flex-row justify-evenly items-center my-4 gap-4 md:gap-1'>
         <pre>
         ✦ . ⁺  . ✦ . ⁺ . ✦
         </pre>
@@ -18,7 +18,7 @@ const ContactForm = () => {
         ✦ . ⁺  . ✦ . ⁺ . ✦
         </pre>
       </span>
-      <p className="text-gray-700 ark:text-white/80 text-sm text-center">
+      <p className="text-gray-700 dark:text-white/90 text-sm text-center">
         Please contact me through this form.
         {/* directly at{" "}
         <a className="underline" href="mailto:example@gmail.com">
@@ -40,7 +40,7 @@ const ContactForm = () => {
         }}
       >
         <input
-          className="py-2 px-4 rounded-sm dark:bg-white border border-zinc-300 dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none placeholder:text-sm text-sm"
+          className="py-2 px-4 rounded-lg dark:bg-white/10 border border-zinc-300 dark:border-white/20 dark:focus:bg-opacity-100 transition-all dark:outline-none placeholder:text-sm text-sm dark:text-white"
           name="senderEmail"
           type="email"
           required
@@ -48,7 +48,7 @@ const ContactForm = () => {
           placeholder="Your email"
         />
         <textarea
-          className="h-48 my-2 rounded-lg border border-zinc-300 p-4 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none placeholder:text-sm text-sm"
+          className="h-48 my-2 rounded-lg border border-zinc-300 p-4 dark:bg-white/10 dark:border-white/20 dark:focus:bg-opacity-100 transition-all dark:outline-none placeholder:text-sm text-sm dark:text-white"
           name="message"
           placeholder="Your message"
           required
