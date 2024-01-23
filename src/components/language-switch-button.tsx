@@ -21,7 +21,7 @@ const LanguageSwitchButton = ({
   return (
     <div className="p-0 m-0 w-full h-full flex items-center justify-center">
       <button
-        className="dark:text-white text-black focus:outline-none backdrop-blur-md hover:scale-110 active:scale-105 transition-all ease-in duration-500"
+        className="dark:text-white text-black focus:outline-none hover:scale-110 active:scale-105 transition-all ease-in duration-500"
         type="button"
         onClick={() => setOpenModal(!openModal)}
       >

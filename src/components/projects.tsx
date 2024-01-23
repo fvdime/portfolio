@@ -2,14 +2,19 @@ import { projectsData } from "@/libs/data";
 import Image from "next/image";
 import React from "react";
 
-const Projects = () => {
+type ProjectsProps = {
+  Title: string,
+  Description: string
+}
+
+const Projects = ({ Title, Description}: ProjectsProps) => {
   return (
     <section
       id="projects"
       className='max-w-screen-sm mx-auto px-16 lg:px-0 "scroll-mt-28'
     >
       <h1 className="text-center uppercase font-bold text-2xl mb-8">
-        My Projects
+        {Title}
       </h1>
 
       <div className="max-w-screen-sm mx-auto h-full flex flex-col gap-4 items-center justify-center">
@@ -21,7 +26,7 @@ const Projects = () => {
             <div className="flex flex-col h-full w-full lg:w-1/2 p-1 md:p-4">
               <h3 className="text-xl font-semibold">{project.title}</h3>
               <p className="my-2 leading-relaxed text-gray-700 dark:text-white/90 text-sm">
-                {project.description}
+                {Description}
               </p>
               <ul className="flex flex-wrap my-2 md:my-4 gap-1 md:gap-2">
                 {project.tags.map((tag, index) => (

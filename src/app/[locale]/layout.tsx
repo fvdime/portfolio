@@ -3,7 +3,6 @@ import { Inter } from "next/font/google";
 import "../globals.css";
 import ThemeContextProvider from "@/context/theme-context";
 import ThemeSwitchButton from "@/components/theme-switch-button";
-import LanguageSwitchButton from "@/components/language-switch-button";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,11 +20,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang={locale} className="!scroll-smooth">
-      <body className={`${inter.className} bg-gray-50 dark:bg-zinc-950 text-black dark:text-white max-w-screen-lg mx-auto`}>
+      <body
+        className={`${inter.className} bg-gray-100 dark:bg-zinc-950 text-black dark:text-white max-w-screen-lg mx-auto`}
+      >
         <ThemeContextProvider>
           {children}
           <ThemeSwitchButton />
-        </ThemeContextProvider>  
+        </ThemeContextProvider>
       </body>
     </html>
   );

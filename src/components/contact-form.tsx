@@ -3,7 +3,16 @@
 import { sendEmail } from '@/actions/email.action';
 import React from 'react'
 
-const ContactForm = () => {
+
+type ContactProps = {
+  Title: string
+  Description: string
+  Email: string
+  TextArea: string
+  ButtonLabel: string
+}
+
+const ContactForm = ({ Title, Description, Email, TextArea, ButtonLabel }: ContactProps) => {
   return (
     <div
     id='contact'
@@ -11,20 +20,16 @@ const ContactForm = () => {
     >
       <span className='w-full flex flex-col md:flex-row justify-evenly items-center my-4 gap-4 md:gap-1'>
         <pre>
-        ✦ . ⁺  . ✦ . ⁺ . ✦
+        {/* ✦ . ⁺  . ✦ . ⁺ . ✦ */}
+        ˚｡⋆°.˚.𐀔˚.★⋆.˚✭*.
         </pre>
-        <h1 className="text-center uppercase font-bold text-2xl">let&apos;s keep in touch</h1>
+        <h1 className="text-center uppercase font-bold text-2xl">{Title}</h1>
         <pre>
-        ✦ . ⁺  . ✦ . ⁺ . ✦
+        ˚✦.˚.❀˚.★⋆♱.˚*;༊
         </pre>
       </span>
       <p className="text-gray-700 dark:text-white/90 text-sm text-center">
-        Please contact me through this form.
-        {/* directly at{" "}
-        <a className="underline" href="mailto:example@gmail.com">
-          example@gmail.com
-        </a>{" "}
-        or  */}
+        {Description}
       </p>
       <form
         className="mt-4 flex flex-col dark:text-black"
@@ -45,16 +50,16 @@ const ContactForm = () => {
           type="email"
           required
           maxLength={500}
-          placeholder="Your email"
+          placeholder={Email}
         />
         <textarea
           className="h-48 my-2 rounded-lg border border-zinc-300 p-4 dark:bg-white/10 dark:border-white/20 dark:focus:bg-opacity-100 transition-all dark:outline-none placeholder:text-sm text-sm dark:text-white"
           name="message"
-          placeholder="Your message"
+          placeholder={TextArea}
           required
           maxLength={5000}
         />
-        <button type="submit" className="w-full bg-gray-900 text-white py-2.5 rounded-full outline-none hover:bg-gray-950 transition duration-300 shadow hover:shadow-lg focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium text-sm ark:bg-blue-600 ark:hover:bg-blue-700 ark:focus:ring-blue-800 mt-4">Send</button>
+        <button type="submit" className="w-full bg-gray-900 text-white py-2.5 rounded-full outline-none hover:bg-gray-950 transition duration-300 shadow hover:shadow-lg focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium text-sm ark:bg-blue-600 ark:hover:bg-blue-700 ark:focus:ring-blue-800 mt-4">{ButtonLabel}</button>
       </form>
     </div>
   )

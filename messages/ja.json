@@ -1,41 +1,52 @@
 {
   "Index": {
     "title": "Hello world!",
-    "AuthPage": {
-      "RegisterHeader": "サインアップ",
-      "LoginHeader": "サインイン",
-      "Username": "ユーザー名",
-      "Name": "お名前",
-      "Email": "メール",
-      "Password": "パスワード",
-      "RegisterButtonLabel": "登録する",
-      "LoginButtonLabel": "ログイン",
-      "RegisterFooterLabel": "アカウントを持ちですか？",
-      "LoginFooterLabel": "登録されていない？",
-      "LoginFooterLink": " アカウントを作成する",
-      "RegisterFooterLink": "アカウントにログイン"
+    "Navbar": {
+      "HomeLink": "ホム",
+      "AboutLink": "ついて",
+      "ProjectsLink": "プロジェクト",
+      "ExperienceLink": "経験",
+      "ContactLink": "コンタック"
     },
-    "LandingPage": {
-      "AboutUsTitle": "みんなのためのプラットフォーム",
-      "AboutUs": " .moai.は、ユーザのみなさんからヒントを得て作成された書くますプラットフォームです。オープンソース、フリー、問題の書くますを行うことができます。",
-      "Title": "今すぐ始める！",
-      "LoginButton": "サインイン",
-      "RegisterButton": "登録する",
-      "FooterAboutLink": "ついて",
-      "FooterContactLink": "お問合せ",
-      "FooterSourceLink": "ソースコード"
+    "HeroBanner": {
+      "Title": "こんにちはファヤと申します！",
+      "Description": "私はコンピューター工学部の学生です。私は非常にフルスタック開発者になりたいと強く思っています。ウェブサイトを作れは好きです。現在、私はNext.js(React）使いまして。",
+      "ContactLabel": "ご連絡ください",
+      "DownloadLabel": "CVをダウンロード"
     },
-    "FeedPage": {
-      "Navbar": {
-        "Search": "検索．．．",
-        "Modal": {
-          "Profile": "プロフィール",
-          "Settings": "ユーザ設定",
-          "Logout": "ログアウト",
-          "ContactLink": "お問合せ",
-          "SourceLink": "ソースコード"
-        }
-      }
+    "About": {
+      "Title": "私について",
+      "Description": "デザイン、コーディング、プロジェクトの作成、モバイル アプリ、Web 開発に強い情熱を持つコンピューター エンジニアリングの学生です。コーディングの世界に登録した後、私はフルスタック Web 開発を勉強しました。革新的と活動的なウェブサイトを試みまして。私はReact、 Next.js、Node.jsとMongoDB使いまして。 専門家と協力し、専門家から学ぶことを楽しみにしています。私はインターンシップとフルスタック開発者職を求めている。どうぞよろしくお願いします。",
+      "SecondPart": "私はコーディングに情熱を持っているだけでなく、や絵画、創造的な活動にも傾いてい。現在、私は日本語とドイツ語とスペイン語学びまして。外国語を学ぶのは難しいでも私は本当に楽しくて。もしかしたら日本語の表現が間違っているかもしれませんが. 私の日本語が変だったらすみません。関心いただきありがとうございました！",
+      "ThirdPart": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "SkillsTitle": "私の資格"
+    },
+    "Projects": {
+      "Title": "私のプロジェクト",
+      "Description": "This platform, where we focus on users asking questions and receiving answers, tried to work in an interactive and information-sharing environment. We wanted to provide the best user experience. Users can see current information and popular ones on the home page. Users can customize and edit their own profile pages. Can explain users question keys and details. Answers can be displayed on an interactive platform where users can interact."
+    },
+    "Experience": {
+      "Title": "職歴",
+      "ExpTitle": "インターンシップ",
+      "ExpDesc": " 私はNext JSとReact JSのプロジェクトを作成しました。私はBackendのためにPython Djangoについて学んだ。 ",
+      "ExpCompany": "TRAIR SOFTWARE TECHNOLOGY INVESTMENTS",
+      "Duration": "七月 2023 - 八月 2023 · 1ヶ月",
+      "Location": "Balikesir, TR",
+      "EducationTitle": "学歴",
+      "SchoolName": "BALIKESIR 大学生",
+      "SchoolDesc": "コンピューター工学専攻",
+      "SchoolLocation": "Balikesir, TR",
+      "SchoolDuration": "2020 - 2024"
+    },
+    "Contact": {
+      "Title": "連絡してくでさい!",
+      "Desc": "ご連絡をお待ちしております。",
+      "Email": "メールアドレス",
+      "TextArea": "あなたのメッセージ",
+      "ButtonLabel": "送る"
+    },
+    "Footer": {
+      "Content": "𓆩❤︎𓆪を込めて作りました。"
     }
   }
 }

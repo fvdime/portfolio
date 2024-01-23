@@ -5,7 +5,15 @@ import { motion } from "framer-motion";
 import { Link } from "./navigation-link";
 import LanguageSwitchButton from "./language-switch-button";
 
-const Navbar = () => {
+type NavbarProps = {
+  HomeLink: string
+  AboutLink: string
+  ProjectsLink: string
+  ExperienceLink: string
+  ContactLink: string
+}
+
+const Navbar = ({ HomeLink, AboutLink, ProjectsLink, ExperienceLink, ContactLink }: NavbarProps) => {
   return (
     <header className="z-50 relative">
       <motion.div
@@ -24,7 +32,7 @@ const Navbar = () => {
                 className="hidden md:flex w-full items-center justify-center hover:text-gray-800 transition dark:hover:text-gray-300"
                 href={"#home"}
               >
-                Home
+                {HomeLink}
               </Link>
             </motion.li>
             <motion.li
@@ -35,7 +43,7 @@ const Navbar = () => {
                 href={"#about"}
                 className="flex w-full items-center justify-center hover:text-gray-800 transition dark:hover:text-gray-300"
               >
-                About
+                {AboutLink}
               </Link>
             </motion.li>
             <motion.li
@@ -46,7 +54,7 @@ const Navbar = () => {
                 href={"#projects"}
                 className="flex w-full items-center justify-center hover:text-gray-800 transition dark:hover:text-gray-300"
               >
-                Projects
+                {ProjectsLink}
               </Link>
             </motion.li>
             <motion.li
@@ -57,7 +65,7 @@ const Navbar = () => {
                 href={"#experience"}
                 className="flex w-full items-center justify-center hover:text-gray-800 transition dark:hover:text-gray-300"
               >
-                Experience
+                {ExperienceLink}
               </Link>
             </motion.li>
             <motion.li
@@ -68,7 +76,7 @@ const Navbar = () => {
                 href={"#contact"}
                 className="flex w-full items-center justify-center hover:text-gray-800 transition dark:hover:text-gray-300"
               >
-                Contact
+                {ContactLink}
               </Link>
             </motion.li>
             <motion.li
