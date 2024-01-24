@@ -3,6 +3,7 @@
 import { sendEmail } from "@/actions/email.action";
 import Image from "next/image";
 import React from "react";
+import toast from "react-hot-toast";
 
 type ContactProps = {
   Title: string;
@@ -21,8 +22,30 @@ const ContactForm = ({
   ButtonLabel,
   Thanks,
 }: ContactProps) => {
+
+  const handleSubmit = async (event: any) => {
+    event.preventDefault();
+
+    const formData = new FormData(event.target);
+    
+    const { data, error } = await sendEmail(formData);
+
+    if (error) {
+      toast.error(error);
+      return;
+    }
+
+    toast.success("Email sent successfully!");
+
+    // Reset the form after successful submission
+    event.target.reset();
+  };
+  
   return (
-    <div id="contact" className="max-w-screen-sm mx-auto px-16 lg:px-0 py-16 scroll-mt-24">
+    <div
+      id="contact"
+      className="max-w-screen-sm mx-auto px-16 lg:px-0 py-16 scroll-mt-24"
+    >
       <span className="w-full flex flex-col md:flex-row justify-evenly items-center my-4 gap-4 md:gap-1">
         <pre>
           {/* ✦ . ⁺  . ✦ . ⁺ . ✦ */}
@@ -36,20 +59,11 @@ const ContactForm = ({
       </p>
       <form
         className="mt-4 flex flex-col dark:text-black"
-        action={async (formData) => {
-          const { data, error } = await sendEmail(formData);
-
-          if (error) {
-            // toast.error(error);
-            return;
-          }
-
-          // toast.success("Email sent successfully!");
-        }}
+        onSubmit={handleSubmit}
       >
         <input
           className="py-2 px-4 rounded-lg dark:bg-white/10 border border-zinc-300 dark:border-white/20 dark:focus:bg-opacity-100 transition-all dark:outline-none placeholder:text-sm text-sm dark:text-white"
-          name="senderEmail"
+          name="sender"
           type="email"
           required
           maxLength={500}

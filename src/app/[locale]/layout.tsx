@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "../globals.css";
 import ThemeContextProvider from "@/context/theme-context";
 import ThemeSwitchButton from "@/components/theme-switch-button";
+import { Toaster } from "react-hot-toast";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -25,6 +26,8 @@ export default function RootLayout({
       >
         <ThemeContextProvider>
           {children}
+
+          <Toaster position="top-right" />
           <ThemeSwitchButton />
         </ThemeContextProvider>
       </body>
