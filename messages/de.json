@@ -1,8 +1,8 @@
 {
   "Index": {
-    "title": "Hello world!",
+    "title": "Meine Sprache: International!",
     "Navbar": {
-      "HomeLink": "Hauptseite",
+      "HomeLink": "Home",
       "AboutLink": "Über",
       "ProjectsLink": "Projekte",
       "ExperienceLink": "Erfahrenheit",
@@ -10,15 +10,15 @@
     },
     "HeroBanner": {
       "Title": "Hallo Ich bin Faya!",
-      "Description": "I am a full-stack developer. I enjoy building sites & apps. My focus is React (Next.js)",
+      "Description": " Ich studiere Informatik und habe großes Interesse daran, ein kompetenter Full-Stack-Entwickler zu werden. Ich liebe es Webseiten und Apps zu erstellen. Mein aktueller Schwerpunkt ist Next.js(React).",
       "ContactLabel": "Kontaktiere mich",
       "DownloadLabel": "CV Herunterladen"
     },
     "About": {
       "Title": "Über mich",
-      "Description": "After earning a degree in Accounting, I embarked on a transformative journey to follow my passion for programming. Enrolling in an intensive coding bootcamp, I immersed myself in the intricacies of full-stack web development. The allure of programming lies in the thrill of problem-solving—I find immense satisfaction in unraveling complexities and crafting elegant solutions. Proficient in a robust tech stack encompassing React, Next.js, Node.js, and MongoDB, I have honed my skills in building dynamic and scalable applications. My toolkit extends to TypeScript and Prisma, adding a layer of precision to my development process. I am always eager to embrace emerging technologies and expand my knowledge base. As a tenacious learner, I thrive on challenges and stay abreast of industry trends to ensure my skills remain cutting-edge. Currently seeking a full-time position as a software developer, I am poised to contribute my expertise to innovative projects. I am excited about the prospect of collaborating with like-minded professionals and continuing my growth in the dynamic field of software development.",
-      "SecondPart": "When I am not coding, I enjoy playing video games, watching movies, and playing with my dog. I also enjoy learning new things. I am currently learning about history and philosophy. I am also learning how to play the guitar.",
-      "ThirdPart": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "Description": "Ich stehe kurz vor dem Abschluss meines Studiums der Computerentwicklung an der Universität Balikesir. Meine Bachelorarbeit werde ich dieses Jahr abgeben. Derzeit beschäftige ich mich mit den Themen Design, Coding, Projekterstellung, Mobile Apps und Webentwicklung. Außerdem arbeite ich projektbezogen an der kontinuierlichen Verbesserung der Prozesse und der Weiterentwicklung meiner Fähigkeiten. Für die Entwicklung verwende ich React, Next.js, Node.js und MongoDB. Mein Ziel ist es, innovative und skalierbare Produkte zu entwickeln. Ich freue mich auf die Zussamenarbeit mit erfahrenen Entwickler, die mir viel beibringen können. Eigentlich bin ich auf der Suche nach einer Stelle als Praktikant oder Full-Stack-Entwickler. Ich bin schon lange auf der Suche nach einem Unternehmen, das zukunftsorientiert, international und wachstumsorientiert in der Computer-Entwicklung tätig ist.",
+      "SecondPart": "Wenn ich nicht programmiere, zeichne ich gerne und höre Musik. Außerdem lerne ich gerne neue Dinge. Zur Zeit lerne ich Deutsch, Spanisch und Japanisch.",
+      "ThirdPart": "Vielen Dank für Ihre Aufmerksamkeit!",
       "SkillsTitle": "Meine Fähigkeiten"
     },
     "Projects": {
@@ -40,7 +40,7 @@
     },
     "Contact": {
       "Title": "Wir bleiben in Kontakt!",
-      "Desc": "Please Don’t Hesitate to Contact Me.",
+      "Desc": "Bitte zögern Sie nicht, mich zu kontaktieren",
       "Email": "E-Mail-Adresse",
       "TextArea": "Ihre Nachricht",
       "ButtonLabel": "Senden"

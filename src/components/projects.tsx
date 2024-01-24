@@ -3,11 +3,10 @@ import Image from "next/image";
 import React from "react";
 
 type ProjectsProps = {
-  Title: string,
-  Description: string
+  Title: string
 }
 
-const Projects = ({ Title, Description}: ProjectsProps) => {
+const Projects = ({ Title }: ProjectsProps) => {
   return (
     <section
       id="projects"
@@ -26,7 +25,7 @@ const Projects = ({ Title, Description}: ProjectsProps) => {
             <div className="flex flex-col h-full w-full lg:w-1/2 p-1 md:p-4">
               <h3 className="text-xl font-semibold">{project.title}</h3>
               <p className="my-2 leading-relaxed text-gray-700 dark:text-white/90 text-sm">
-                {Description}
+                {project.description}
               </p>
               <ul className="flex flex-wrap my-2 md:my-4 gap-1 md:gap-2">
                 {project.tags.map((tag, index) => (

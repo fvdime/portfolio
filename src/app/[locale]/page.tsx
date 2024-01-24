@@ -44,7 +44,6 @@ export default function Home() {
       />
       <Projects
         Title={tProjects('Title')}
-        Description={tProjects('Description')}
       />
       <Experience
         Title={tExperience('Title')}

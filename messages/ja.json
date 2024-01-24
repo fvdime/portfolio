@@ -18,12 +18,11 @@
       "Title": "私について",
       "Description": "デザイン、コーディング、プロジェクトの作成、モバイル アプリ、Web 開発に強い情熱を持つコンピューター エンジニアリングの学生です。コーディングの世界に登録した後、私はフルスタック Web 開発を勉強しました。革新的と活動的なウェブサイトを試みまして。私はReact、 Next.js、Node.jsとMongoDB使いまして。 専門家と協力し、専門家から学ぶことを楽しみにしています。私はインターンシップとフルスタック開発者職を求めている。どうぞよろしくお願いします。",
       "SecondPart": "私はコーディングに情熱を持っているだけでなく、や絵画、創造的な活動にも傾いてい。現在、私は日本語とドイツ語とスペイン語学びまして。外国語を学ぶのは難しいでも私は本当に楽しくて。もしかしたら日本語の表現が間違っているかもしれませんが. 私の日本語が変だったらすみません。関心いただきありがとうございました！",
-      "ThirdPart": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "ThirdPart": "ご清聴ありがとうございました!",
       "SkillsTitle": "私の資格"
     },
     "Projects": {
-      "Title": "私のプロジェクト",
-      "Description": "This platform, where we focus on users asking questions and receiving answers, tried to work in an interactive and information-sharing environment. We wanted to provide the best user experience. Users can see current information and popular ones on the home page. Users can customize and edit their own profile pages. Can explain users question keys and details. Answers can be displayed on an interactive platform where users can interact."
+      "Title": "私のプロジェクト"
     },
     "Experience": {
       "Title": "職歴",
