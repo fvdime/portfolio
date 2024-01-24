@@ -2,37 +2,35 @@
   "Index": {
     "title": "Hello world!",
     "Navbar": {
-      "HomeLink": "Hauptseite",
-      "AboutLink": "Über",
-      "ProjectsLink": "Projects",
-      "ExperienceLink": "Erfahrenheit",
-      "ContactLink": "Kontakt"
+      "HomeLink": "Home",
+      "AboutLink": "Acerca de",
+      "ProjectsLink": "Proyectos",
+      "ExperienceLink": "Experiencia",
+      "ContactLink": "Contacto"
     },
     "HeroBanner": {
-      "Title": "Hallo Ich bin Faya!",
-      "Description": "I am a full-stack developer. I enjoy building sites & apps. My focus is React (Next.js)",
-      "ContactLabel": "Contact me",
-      "DownloadLabel": "Download CV"
+      "Title": "Hola, Soy Fadime!",
+      "Description": "Soy desarrolladora de Full-stack. Disfruto construyendo sitios y aplicaciones. Me concentro en React (Next.js)",
+      "ContactLabel": "Contactarme",
+      "DownloadLabel": "Descargar CV"
     },
     "About": {
-      "Title": "Über mich",
-      "Description": "After earning a degree in Accounting, I embarked on a transformative journey to follow my passion for programming. Enrolling in an intensive coding bootcamp, I immersed myself in the intricacies of full-stack web development. The allure of programming lies in the thrill of problem-solving—I find immense satisfaction in unraveling complexities and crafting elegant solutions. Proficient in a robust tech stack encompassing React, Next.js, Node.js, and MongoDB, I have honed my skills in building dynamic and scalable applications. My toolkit extends to TypeScript and Prisma, adding a layer of precision to my development process. I am always eager to embrace emerging technologies and expand my knowledge base. As a tenacious learner, I thrive on challenges and stay abreast of industry trends to ensure my skills remain cutting-edge. Currently seeking a full-time position as a software developer, I am poised to contribute my expertise to innovative projects. I am excited about the prospect of collaborating with like-minded professionals and continuing my growth in the dynamic field of software development.",
-      "SecondPart": "When I am not coding, I enjoy playing video games, watching movies, and playing with my dog. I also enjoy learning new things. I am currently learning about history and philosophy. I am also learning how to play the guitar.",
-      "ThirdPart": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "Title": "Acerca de mí",
+      "Description": "Una estudiante de ingeniería informática con la pasión en diseño, crear proyectos, aplicaciones móviles y desarrollo web. Dominio de varias plataformas y lenguajes. Experiencia en las herramientas y procedimientos de desarrollo más vanguardistas. Capaz de autogestión eficaz en proyectos independientes. Buenas habilidades de colaboración dentro de un equipo productivo. Estos días uso React, Next.js, Node.js y MongoDB. Espero trabajar con desarrolladores experimentados que puedan enseñarme mucho. De hecho, estoy buscando trabajo como pasante o desarrollador full-stack.",
+      "SecondPart": "Cuando no estoy programando, me gusta dibujar y escuchar música. También disfruto aprendiendo cosas nuevas. Actualmente, estoy aprendiendo alemán, español y japonés. Aprender nuevos idiomas es difícil pero me encanta mucho. Espero no haber cometido errores.",
       "SkillsTitle": "Meine Fähigkeiten"
     },
     "Projects": {
-      "Title": "Mis Proyectos",
-      "Description": "This platform, where we focus on users asking questions and receiving answers, tried to work in an interactive and information-sharing environment. We wanted to provide the best user experience. Users can see current information and popular ones on the home page. Users can customize and edit their own profile pages. Can explain users question keys and details. Answers can be displayed on an interactive platform where users can interact."
+      "Title": "Mis Proyectos"
     },
     "Experience": {
-      "Title": "Erfahrenheit",
-      "ExpTitle": "Intern",
-      "ExpDesc": "Designed websites with Next JS and React JS, making responsive designs and learning Python Django framework for Backend ",
+      "Title": "Experiencia",
+      "ExpTitle": "Pasantía",
+      "ExpDesc": "Designed websites with Next JS and React JS, making responsive designs and learning Python Django framework for Backend",
       "ExpCompany": "TRAIR SOFTWARE TECHNOLOGY INVESTMENTS",
-      "Duration": "Jul 2023 - Aug 2023 · 1 mos",
+      "Duration": "Julio 2023 - augusto 2023 · 1 mes",
       "Location": "Balikesir, TR",
-      "EducationTitle": "Ausbildung",
+      "EducationTitle": "Educación",
       "SchoolName": "BALIKESIR UNIVERSITY",
       "SchoolDesc": "Bachelor of Engineering, Major in Computer Engineering",
       "SchoolLocation": "Balikesir, TR",
@@ -40,10 +38,11 @@
     },
     "Contact": {
       "Title": "Mantengámonos en contacto!",
-      "Desc": "Please Don’t Hesitate to Contact Me.",
-      "Email": "Dirección de correo electrónico",
+      "Desc": "Por favor,No dude en ponerse en contacto conmigo",
+      "Email": "Email",
       "TextArea": "Su Mensaje",
-      "ButtonLabel": "Enviar"
+      "ButtonLabel": "Enviar",
+      "Thanks": "Agradeciéndole su atención!"
     },
     "Footer": {
       "Content": "Hecho con 𓆩❤︎𓆪 por"
