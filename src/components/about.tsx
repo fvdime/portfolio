@@ -23,7 +23,6 @@ type AboutProps = {
   Title: string;
   Description: string;
   SecondPart: string;
-  ThirdPart: string;
   SkillsTitle: string;
 };
 
@@ -31,7 +30,6 @@ const About = ({
   Title,
   Description,
   SecondPart,
-  ThirdPart,
   SkillsTitle,
 }: AboutProps) => {
   return (
@@ -45,21 +43,8 @@ const About = ({
       <h1 className="text-center uppercase font-bold text-2xl mb-4">{Title}</h1>
       <p className="mb-2 px-16 lg:px-0 text-center">{Description}</p>
 
-      <p className="px-16 lg:px-0 text-center">{SecondPart}</p>
-
-      <div className="mt-16 w-full h-full flex flex-col  md:flex-row justify-between items-center px-16 lg:px-0 gap-4">
-        <Image
-          src="/4.jpg"
-          width={256}
-          height={256}
-          alt="img"
-          className="h-auto w-auto object-cover"
-        />
-        <span className="text-center md:text-end font-bold text-3xl">
-          {ThirdPart}
-        </span>
-      </div>
-      <div className="mt-16">
+      <p className="px-16 pt-4 lg:px-0 text-center">{SecondPart}</p>
+      <div className="mt-24">
         <h1 className="text-center uppercase font-bold text-2xl mb-4">
           {SkillsTitle}
         </h1>

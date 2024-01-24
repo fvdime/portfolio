@@ -1,5 +1,6 @@
 import { projectsData } from "@/libs/data";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 type ProjectsProps = {
@@ -10,7 +11,7 @@ const Projects = ({ Title }: ProjectsProps) => {
   return (
     <section
       id="projects"
-      className='max-w-screen-sm mx-auto px-16 lg:px-0 "scroll-mt-28'
+      className='max-w-screen-sm mx-auto px-16 lg:px-0 scroll-mt-24'
     >
       <h1 className="text-center uppercase font-bold text-2xl mb-8">
         {Title}
@@ -23,7 +24,7 @@ const Projects = ({ Title }: ProjectsProps) => {
             className="w-full h-full flex flex-col lg:flex-row justify-between md:items-center border border-zinc-300 rounded-lg shadow-md hover:shadow-lg shadow-zinc-300 dark:shadow-white/10 dark:border-white/20 p-4"
           >
             <div className="flex flex-col h-full w-full lg:w-1/2 p-1 md:p-4">
-              <h3 className="text-xl font-semibold">{project.title}</h3>
+              <Link href={project.github} target="_blank" className="text-xl font-semibold hover:underline">{project.title}</Link>
               <p className="my-2 leading-relaxed text-gray-700 dark:text-white/90 text-sm">
                 {project.description}
               </p>

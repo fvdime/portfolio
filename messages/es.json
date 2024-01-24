@@ -9,7 +9,7 @@
       "ContactLink": "Contacto"
     },
     "HeroBanner": {
-      "Title": "Hola, Soy Faya!",
+      "Title": "Hola, Soy Fadime!",
       "Description": "Soy desarrolladora de Full-stack. Disfruto construyendo sitios y aplicaciones. Me concentro en React (Next.js)",
       "ContactLabel": "Contactarme",
       "DownloadLabel": "Descargar CV"
@@ -18,7 +18,6 @@
       "Title": "Acerca de mí",
       "Description": "Una estudiante de ingeniería informática con la pasión en diseño, crear proyectos, aplicaciones móviles y desarrollo web. Dominio de varias plataformas y lenguajes. Experiencia en las herramientas y procedimientos de desarrollo más vanguardistas. Capaz de autogestión eficaz en proyectos independientes. Buenas habilidades de colaboración dentro de un equipo productivo. Estos días uso React, Next.js, Node.js y MongoDB. Espero trabajar con desarrolladores experimentados que puedan enseñarme mucho. De hecho, estoy buscando trabajo como pasante o desarrollador full-stack.",
       "SecondPart": "Cuando no estoy programando, me gusta dibujar y escuchar música. También disfruto aprendiendo cosas nuevas. Actualmente, estoy aprendiendo alemán, español y japonés. Aprender nuevos idiomas es difícil pero me encanta mucho. Espero no haber cometido errores.",
-      "ThirdPart": "Agradeciéndole su atención!",
       "SkillsTitle": "Meine Fähigkeiten"
     },
     "Projects": {
@@ -42,7 +41,8 @@
       "Desc": "Por favor,No dude en ponerse en contacto conmigo",
       "Email": "Email",
       "TextArea": "Su Mensaje",
-      "ButtonLabel": "Enviar"
+      "ButtonLabel": "Enviar",
+      "Thanks": "Agradeciéndole su atención!"
     },
     "Footer": {
       "Content": "Hecho con 𓆩❤︎𓆪 por"

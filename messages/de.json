@@ -9,7 +9,7 @@
       "ContactLink": "Kontakt"
     },
     "HeroBanner": {
-      "Title": "Hallo Ich bin Faya!",
+      "Title": "Hallo Ich bin Fadime!",
       "Description": " Ich studiere Informatik und habe großes Interesse daran, ein kompetenter Full-Stack-Entwickler zu werden. Ich liebe es Webseiten und Apps zu erstellen. Mein aktueller Schwerpunkt ist Next.js(React).",
       "ContactLabel": "Kontaktiere mich",
       "DownloadLabel": "CV Herunterladen"
@@ -18,12 +18,10 @@
       "Title": "Über mich",
       "Description": "Ich stehe kurz vor dem Abschluss meines Studiums der Computerentwicklung an der Universität Balikesir. Meine Bachelorarbeit werde ich dieses Jahr abgeben. Derzeit beschäftige ich mich mit den Themen Design, Coding, Projekterstellung, Mobile Apps und Webentwicklung. Außerdem arbeite ich projektbezogen an der kontinuierlichen Verbesserung der Prozesse und der Weiterentwicklung meiner Fähigkeiten. Für die Entwicklung verwende ich React, Next.js, Node.js und MongoDB. Mein Ziel ist es, innovative und skalierbare Produkte zu entwickeln. Ich freue mich auf die Zussamenarbeit mit erfahrenen Entwickler, die mir viel beibringen können. Eigentlich bin ich auf der Suche nach einer Stelle als Praktikant oder Full-Stack-Entwickler. Ich bin schon lange auf der Suche nach einem Unternehmen, das zukunftsorientiert, international und wachstumsorientiert in der Computer-Entwicklung tätig ist.",
       "SecondPart": "Wenn ich nicht programmiere, zeichne ich gerne und höre Musik. Außerdem lerne ich gerne neue Dinge. Zur Zeit lerne ich Deutsch, Spanisch und Japanisch.",
-      "ThirdPart": "Vielen Dank für Ihre Aufmerksamkeit!",
       "SkillsTitle": "Meine Fähigkeiten"
     },
     "Projects": {
-      "Title": "Meine Projekte",
-      "Description": "This platform, where we focus on users asking questions and receiving answers, tried to work in an interactive and information-sharing environment. We wanted to provide the best user experience. Users can see current information and popular ones on the home page. Users can customize and edit their own profile pages. Can explain users question keys and details. Answers can be displayed on an interactive platform where users can interact."
+      "Title": "Meine Projekte"
     },
     "Experience": {
       "Title": "Erfahrenheit",
@@ -43,7 +41,8 @@
       "Desc": "Bitte zögern Sie nicht, mich zu kontaktieren",
       "Email": "E-Mail-Adresse",
       "TextArea": "Ihre Nachricht",
-      "ButtonLabel": "Senden"
+      "ButtonLabel": "Senden",
+      "Thanks": "Vielen Dank für Ihre Aufmerksamkeit!"
     },
     "Footer": {
       "Content": "Hergestellt mit 𓆩❤︎𓆪 von"

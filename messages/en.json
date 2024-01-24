@@ -9,7 +9,7 @@
       "ContactLink": "Contact"
     },
     "HeroBanner": {
-      "Title": "Hi I'm Faya!",
+      "Title": "Hi I'm Fadime!",
       "Description": "I am a computer engineering student with a keen interest in becoming a proficient full-stack developer. I enjoy building websites and apps. My current focus is Next.js(React)",
       "ContactLabel": "Contact me",
       "DownloadLabel": "Download CV"
@@ -17,13 +17,11 @@
     "About": {
       "Title": "About me",
       "Description": "A Computer Engineering student with a real passion for designing, coding, creating projects, mobile apps and web development. After enrolling in the coding world, I immersed myself in the intricacies of full-stack web development. The allure of programming lies in the thrill of problem-solving. I find immense satisfaction in unraveling complexities and crafting elegant solutions. Proficient in a robust tech stack encompassing React, Next.js, Node.js, and MongoDB, I have honed my skills in building dynamic and scalable applications. My toolkit extends to TypeScript and Prisma, adding a layer of precision to my development process. I am always eager to embrace emerging technologies and expand my knowledge base. As a tenacious learner, I thrive on challenges and stay abreast of industry trends to ensure my skills remain cutting-edge. Currently seeking a full-time position as a software developer or Intern, I am poised to contribute my expertise to innovative projects. I am excited about the prospect of collaborating with like-minded professionals and continuing my growth in the dynamic field of software development.",
-      "SecondPart": "When I am not immersed in code, I find solace in my artistic pursuits. I also enjoy learning new things. I am currently learning German, Spanish and Japanese.Learning languages not only broadens my cultural understanding but also presents exciting new challenges",
-      "ThirdPart": "Thank you for your attention!",
+      "SecondPart": "When I am not immersed in code, I find solace in my artistic pursuits. I also enjoy learning new things. I am currently learning German, Spanish and Japanese. Learning languages not only broadens my cultural understanding but also presents exciting new challenges.",
       "SkillsTitle": "My Skills"
     },
     "Projects": {
-      "Title": "My Projects",
-      "Description": "This platform, where we focus on users asking questions and receiving answers, tried to work in an interactive and information-sharing environment. We wanted to provide the best user experience. Users can see current information and popular ones on the home page. Users can customize and edit their own profile pages. Can explain users question keys and details. Answers can be displayed on an interactive platform where users can interact."
+      "Title": "My Projects"
     },
     "Experience": {
       "Title": "Experience",
@@ -43,7 +41,8 @@
       "Desc": "Please Don’t Hesitate to Contact Me.",
       "Email": "Email",
       "TextArea": "Your message",
-      "ButtonLabel": "Send"
+      "ButtonLabel": "Send",
+      "Thanks": "Thank you for your attention!"
     },
     "Footer": {
       "Content": "Made with 𓆩❤︎𓆪 by"

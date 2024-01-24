@@ -38,7 +38,7 @@ const LanguageSwitchButton = ({
       </button>
       {openModal && (
         <div>
-          <div className="z-20 absolute right-1 md:right-0 top-10 md:top-12 divide-y divide-zinc-100 rounded-lg w-32 bg-gray-200 border border-gray-300 backdrop-blur-md shadow-lg dark:bg-white/10 dark:border-gray-100/30">
+          <div className="z-20 absolute right-1 md:right-0 top-10 divide-y divide-zinc-100 rounded-lg w-32 bg-gray-200/60 border border-gray-300/70 backdrop-blur-md shadow-lg dark:bg-white/20 dark:border-gray-100/40">
             <ul className="p-2 text-xs font-bold">
               <li>
                 <Link

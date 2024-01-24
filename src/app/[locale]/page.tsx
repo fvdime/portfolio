@@ -39,7 +39,6 @@ export default function Home() {
         Title={tAbout('Title')}
         Description={tAbout('Description')}
         SecondPart={tAbout('SecondPart')}
-        ThirdPart={tAbout('ThirdPart')}
         SkillsTitle={tAbout('SkillsTitle')}
       />
       <Projects
@@ -64,6 +63,7 @@ export default function Home() {
         Email={tContact('Email')}
         TextArea={tContact('TextArea')}
         ButtonLabel={tContact('ButtonLabel')}
+        Thanks={tContact('Thanks')}
       />
       <Footer
         Content={tFooter('Content')}

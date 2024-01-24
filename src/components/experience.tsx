@@ -35,7 +35,7 @@ const Experience = ({ Title, ExpTitle, ExpDesc, ExpCompany, Duration, Location, 
       opacity: opacityProgress,
     }}
     id='experience'
-    className='max-w-screen-sm mx-auto px-16 lg:px-0 my-16'>
+    className='max-w-screen-sm mx-auto px-16 lg:px-0 my-16 scroll-mt-24'>
       <h1 className="text-center uppercase font-bold text-2xl mb-8">{Title}</h1>     
       <ol className="relative border-s border-gray-700 dark:border-gray-200">
         {/* EDUCATION */}
