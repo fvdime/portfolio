@@ -1,3 +1,19 @@
+## About Language Support
+
+Hello, and thank you for your interest!
+I've translated all the content here, but I'm not confident about my proficiency in German, Spanish, and Japanese. If you notice any mistakes, please point them out. Your feedback would be greatly appreciated!
+
+Hola, gracias por tu interés!
+Traduje todo el contenido aquí. Podría y contener errores. Si detecta algún error, ¡Hágamelo saber! No tengo mucha confianza en mi alemán, español y japonés.
+
+Hallo, vielen Dank für Ihr Interesse!
+Ich habe den gesamten Inhalt hier übersetzt. Ich könnte einige Fehler gemacht haben. Wenn Sie einen Fehler finden, lassen Sie es mich bitte wissen! Ich bin nicht sehr zuversichtlich, was mein Deutsch, Spanisch und Japanisch angeht.
+
+こんにちは、関心いただきありがとうございました。
+ここに内容を訳しました 私の日本語が変だったら許してください。もし日本語の間違まちがいを見みつけたら、直なおしてください。私は自分の日本語、スペイン語、ドイツ語に自身がありません。もうちょっと勉強必要かも！
+ありがとうござます！！！！！！！！！！
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
