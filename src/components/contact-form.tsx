@@ -78,7 +78,7 @@ const ContactForm = ({
         />
         <button
           type="submit"
-          className="w-full bg-gray-900 text-white py-2.5 rounded-full outline-none hover:bg-gray-950 transition duration-300 shadow hover:shadow-lg focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium text-sm ark:bg-blue-600 ark:hover:bg-blue-700 ark:focus:ring-blue-800 mt-4"
+          className="w-full bg-indigo-900 text-white py-2.5 rounded-full outline-none hover:bg-indigo-950 transition duration-300 shadow hover:shadow-lg focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium text-sm ark:bg-blue-600 ark:hover:bg-blue-700 ark:focus:ring-blue-800 mt-4"
         >
           {ButtonLabel}
         </button>

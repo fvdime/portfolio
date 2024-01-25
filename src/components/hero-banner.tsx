@@ -4,29 +4,22 @@ import React from "react";
 import { Link } from "./navigation-link";
 
 type HeroBannerProps = {
-  Title: string
-  Description: string
-  ContactLabel: string
-  DownloadLabel: string
-}
+  Title: string;
+  Description: string;
+  ContactLabel: string;
+  DownloadLabel: string;
+};
 
-const HeroBanner = ({ Title, Description, ContactLabel, DownloadLabel }: HeroBannerProps) => {
+const HeroBanner = ({
+  Title,
+  Description,
+  ContactLabel,
+  DownloadLabel,
+}: HeroBannerProps) => {
   return (
     <section id="home" className="h-[80vh] relative">
-      {/* <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-        aaaaaaaaaaaaaaaaaaa
-      </p> */}
-
-      {/* <div className="bg-[#e09295] absolute top-[-6rem] -z-10 right-[11rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem] dark:bg-[#4d3232]"></div>
-      <div className="bg-[#dbd7fb] absolute top-[-1rem] -z-10 left-[-35rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem] dark:bg-[#2f2c4b]"></div> */}
-
-      {/* <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-      </div>  */}
-
       <div className="w-64 h-[40vh] lg:h-full rounded-full bg-indigo-500 dark:bg-indigo-950 absolute z-[-1] top-1/4 right-0 translate-x-[-50%] translate-y-[-50%] blur-[96px] rotate-45"></div>
 
-      {/* <div className="relative flex place-items-center before:absolute before:h-96 before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-indigo-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-indigo-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-      </div>  */}
       <div className="w-full h-full flex flex-col justify-center items-center">
         <h1 className="uppercase font-bold text-2xl">{Title}</h1>
         <h1 className="mb-8 mt-4 px-8 lg:text-2xl font-medium !leading-[1.5] text-xl text-center">
@@ -35,13 +28,13 @@ const HeroBanner = ({ Title, Description, ContactLabel, DownloadLabel }: HeroBan
         <div className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-sm font-semibold">
           <Link
             href="#contact"
-            className="group w-44 text-center bg-gray-900 text-white py-2.5 flex justify-center items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
+            className="group w-44 text-center bg-indigo-900 text-white py-2.5 flex justify-center items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-indigo-950 active:scale-105 transition"
           >
             ✦<span className="mx-1">{ContactLabel}</span>✦
           </Link>
 
           <button className="group bg-white w-44 py-2.5 flex items-center justify-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer dark:bg-white/10">
-            <a href="/CV.pdf" download>
+            <a href="/Fadime-Dogrul-Resume.pdf" download>
               ✧<span className="mx-1">{DownloadLabel}</span>✧
             </a>
           </button>
