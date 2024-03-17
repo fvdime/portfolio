@@ -1,3 +1,55 @@
+# Portfolio
+
+<a name="readme-top"></a>
+
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <h3 align="center">Portfolio Website</h3>
+
+  <p align="center">
+    <a href="https://faya-indol.vercel.app/">Live Demo</a>
+    ·
+    <a href="https://github.com/fvdime/portfolio/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/fvdime/portfolio/issues">Request Feature</a>
+  </p>
+</div>
+
+### Built With
+
+- Next JS
+- Next Server Actions
+- Resend
+- Tailwind CSS
+
+<p align="right">(<a href="#readme-top">↑</a>)</p>
+
+## Installation
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/fvdime/portfolio.git
+    ```
+   
+2. Install NPM packages:
+   ```bash
+   npm install
+    ``` 
+   
+3. Add .env file:
+   ```bash
+   RESEND_API_KEY="<RESEND API KEY>"
+    ```
+
+4. Run the development server:
+
+   ```bash
+   npm run dev
+   ```   
+
+<p align="right">(<a href="#readme-top">↑</a>)</p>
+
 ## About Language Support
 
 Hello, and thank you for your interest!
@@ -9,9 +61,21 @@ Traduje todo el contenido aquí. Podría y contener errores. Si detecta algún e
 Hallo, vielen Dank für Ihr Interesse!
 Ich habe den gesamten Inhalt hier übersetzt. Ich könnte einige Fehler gemacht haben. Wenn Sie einen Fehler finden, lassen Sie es mich bitte wissen! Ich bin nicht sehr zuversichtlich, was mein Deutsch, Spanisch und Japanisch angeht.
 
-こんにちは、関心いただきありがとうございました。
-ここに内容を訳しました 私の日本語が変だったら許してください。もし日本語の間違まちがいを見みつけたら、直なおしてください。私は自分の日本語、スペイン語、ドイツ語に自身がありません。もうちょっと勉強必要かも！
-ありがとうござます！！！！！！！！！！
+こちらに翻訳をしています。おそらくいくつかの間違いもあるかと思います。もし見つけたら教えてください！私はドイツ語、スペイン、日本語にまだ自信がありません。
+よろしくお願いします！
+
+<p align="right">(<a href="#readme-top">↑</a>)</p>
+
+
+### Contact
+
+Contact: https://faya-indol.vercel.app/
+
+Mail: fadime.dogrulj@gmail.com
+
+Project Link: [https://github.com/fvdime/portfolio](https://github.com/fvdime/portfolio)
+
+<p align="right">(<a href="#readme-top">↑</a>)</p>
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
@@ -32,21 +96,11 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
 ## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
