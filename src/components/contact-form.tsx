@@ -84,7 +84,7 @@ const ContactForm = ({
         </button>
       </form>
 
-      <div className="mt-16 w-full h-full flex flex-col  md:flex-row justify-between items-center px-16 lg:px-0 gap-4">
+      <div className="mt-16 w-full h-full flex flex-col  lg:flex-row justify-between items-center px-16 lg:px-0 gap-4">
         <Image
           src="/3.jpg"
           width={256}
@@ -92,7 +92,7 @@ const ContactForm = ({
           alt="img"
           className="h-auto w-auto object-cover"
         />
-        <span className="text-center md:text-end font-bold text-3xl">
+        <span className="text-center lg:text-end font-semibold text-4xl">
           {Thanks}
         </span>
       </div>
