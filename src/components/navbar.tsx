@@ -23,7 +23,7 @@ const Navbar = ({
   return (
     <header className="z-50 relative">
       <motion.div
-        className="fixed left-0 right-0 top-0 flex w-full  justify-center bg-gradient-to-b from-zinc-200 px-4 py-2 backdrop-blur-2xl dark:from-inherit bg-white/30 dark:bg-zinc-950/50 lg:p-2 shadow-lg shadow-black/[0.03]"
+        className="fixed left-0 right-0 top-2 flex w-f justify-center border-gray-300/70 bg-gradient-to-b from-zinc-200 px-0 md:px-4 py-2 backdrop-blur-2xl dark:from-inherit lg:max-w-screen-lg lg:mx-auto rounded-full border bg-white/30 dark:bg-zinc-950/50 dark:border-gray-300/40 mx-4 lg:p-2 shadow-lg shadow-black/[0.03]"
         initial={{ y: -100, x: 0, opacity: 0 }}
         animate={{ y: 0, x: 0, opacity: 1 }}
       >

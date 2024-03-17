@@ -18,8 +18,8 @@ const HeroBanner = ({
 }: HeroBannerProps) => {
   return (
     <section id="home" className="h-[90vh] md:h-[85vh] relative">
-      <div className="w-64 h-[70vh] rounded-full bg-indigo-200 dark:bg-zinc-800 absolute z-[-1] top-1/4 left-0 translate-x-[-20%] translate-y-[-40%] blur-[96px] rotate-12 dark:hidden" />
-      <div className="w-64 h-[70vh] rounded-full bg-indigo-200 dark:bg-zinc-800 absolute z-[-1] top-3/4 right-0 translate-x-[-20%] translate-y-[-40%] blur-[96px] rotate-12 dark:hidden" />
+      <div className="w-64 h-[70vh] rounded-full bg-indigo-200 dark:bg-zinc-800 absolute z-[-1] top-1/4 left-0 translate-x-[-20%] translate-y-[-40%] blur-[96px] rotate-12 flex dark:hidden" />
+      <div className="w-64 h-[70vh] rounded-full bg-indigo-200 dark:bg-zinc-800 absolute z-[-1] top-3/4 right-0 translate-x-[-20%] translate-y-[-40%] blur-[96px] rotate-12 hidden md:flex dark:hidden" />
       <div className="w-64 h-[40vh] lg:h-full rounded-full dark:bg-indigo-950 absolute z-[-1] top-1/4 right-0 md:right-4 translate-x-[-50%] translate-y-[-50%] blur-[96px] rotate-45 hidden dark:flex" />
 
       <div className="max-w-screen-lg mx-auto h-full flex flex-col justify-center items-center pt-16">
