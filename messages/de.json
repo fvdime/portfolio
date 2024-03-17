@@ -16,7 +16,7 @@
     },
     "About": {
       "Title": "Über mich",
-      "Description": "Ich stehe kurz vor dem Abschluss meines Studiums der Computerentwicklung an der Universität Balikesir. Meine Bachelorarbeit werde ich dieses Jahr abgeben. Derzeit beschäftige ich mich mit den Themen Design, Coding, Projekterstellung, Mobile Apps und Webentwicklung. Außerdem arbeite ich projektbezogen an der kontinuierlichen Verbesserung der Prozesse und der Weiterentwicklung meiner Fähigkeiten. Für die Entwicklung verwende ich React, Next.js, Node.js und MongoDB. Mein Ziel ist es, innovative und skalierbare Produkte zu entwickeln. Ich freue mich auf die Zusammenarbeit mit erfahrenen Entwicklern, die mir viel beibringen können. Eigentlich bin ich auf der Suche nach einer Stelle als Praktikant oder Full-Stack-Entwickler. Ich bin schon lange auf der Suche nach einem Unternehmen, das zukunftsorientiert, international und wachstumsorientiert in der Computerentwicklung tätig ist.",
+      "Description": "Ich stehe kurz vor dem Abschluss meines Studiums der Computerentwicklung an der Universität Balikesir. Meine Bachelorarbeit werde ich dieses Jahr abgeben. Derzeit beschäftige ich mich mit den Themen Design, Coding, Projekterstellung, Mobile Apps und Webentwicklung. Außerdem arbeite ich projektbezogen an der kontinuierlichen Verbesserung der Prozesse und der Weiterentwicklung meiner Fähigkeiten. Für die Entwicklung verwende ich React, Next.js, Node.js und Prisma. Mein Ziel ist es, innovative und skalierbare Produkte zu entwickeln. Ich freue mich auf die Zusammenarbeit mit erfahrenen Entwicklern, die mir viel beibringen können. Eigentlich bin ich auf der Suche nach einer Stelle als Praktikant oder Full-Stack-Entwickler. Ich bin schon lange auf der Suche nach einem Unternehmen, das zukunftsorientiert, international und wachstumsorientiert in der Computerentwicklung tätig ist.",
       "SecondPart": "Wenn ich nicht programmiere, zeichne ich gerne und höre Musik. Außerdem lerne ich gerne neue Dinge. Zur Zeit lerne ich Deutsch, Spanisch und Japanisch.",
       "SkillsTitle": "Meine Fähigkeiten"
     },
@@ -45,7 +45,7 @@
       "Thanks": "Vielen Dank für Ihre Aufmerksamkeit!"
     },
     "Footer": {
-      "Content": "Hergestellt mit 𓆩❤︎𓆪 von"
+      "Content": "Hergestellt mit ♡ von"
     }
   }
 }

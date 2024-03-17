@@ -5,10 +5,9 @@ import Footer from '@/components/footer';
 import HeroBanner from '@/components/hero-banner';
 import Navbar from '@/components/navbar';
 import Projects from '@/components/projects';
-import {useTranslations} from 'next-intl';
+import { useTranslations } from 'next-intl';
 
 export default function Home() {
-  
   const tNavbar = useTranslations('Index.Navbar');
   const tHeroBanner = useTranslations('Index.HeroBanner');
   const tAbout = useTranslations('Index.About');
@@ -17,11 +16,8 @@ export default function Home() {
   const tContact = useTranslations('Index.Contact');
   const tFooter = useTranslations('Index.Footer');
 
-
-
   return (
-    <main className="py-4 lg:px-0 font-medium">
-      {/* dark:text-gray-50 */}
+    <>
       <Navbar
         HomeLink={tNavbar('HomeLink')}
         AboutLink={tNavbar('AboutLink')}
@@ -68,6 +64,6 @@ export default function Home() {
       <Footer
         Content={tFooter('Content')}
       />
-    </main>
+    </>
   );
 }

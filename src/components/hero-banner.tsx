@@ -17,15 +17,22 @@ const HeroBanner = ({
   DownloadLabel,
 }: HeroBannerProps) => {
   return (
-    <section id="home" className="h-[80vh] relative">
-      <div className="w-64 h-[40vh] lg:h-full rounded-full bg-indigo-500 dark:bg-indigo-950 absolute z-[-1] top-1/4 right-0 translate-x-[-50%] translate-y-[-50%] blur-[96px] rotate-45"></div>
+    <section id="home" className="h-[90vh] md:h-[85vh] relative">
+      <div className="w-64 h-[70vh] rounded-full bg-indigo-200 dark:bg-zinc-800 absolute z-[-1] top-1/4 left-0 translate-x-[-20%] translate-y-[-40%] blur-[96px] rotate-12 dark:hidden" />
+      <div className="w-64 h-[70vh] rounded-full bg-indigo-200 dark:bg-zinc-800 absolute z-[-1] top-3/4 right-0 translate-x-[-20%] translate-y-[-40%] blur-[96px] rotate-12 dark:hidden" />
+      <div className="w-64 h-[40vh] lg:h-full rounded-full dark:bg-indigo-950 absolute z-[-1] top-1/4 right-0 md:right-4 translate-x-[-50%] translate-y-[-50%] blur-[96px] rotate-45 hidden dark:flex" />
 
-      <div className="w-full h-full flex flex-col justify-center items-center">
+      <div className="max-w-screen-lg mx-auto h-full flex flex-col justify-center items-center pt-16">
         <h1 className="uppercase font-bold text-2xl">{Title}</h1>
         <h1 className="mb-8 mt-4 px-8 lg:text-2xl font-medium !leading-[1.5] text-xl text-center">
           {Description}
         </h1>
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-sm font-semibold">
+        <div className="mb-8 w-full flex flex-row items-center gap-2 px-8">
+          <span className="border-b w-full border-gray-400 dark:border-zinc-700" />
+          <span className="text-xl">⁠✜</span>
+          <span className="border-b w-full border-gray-400 dark:border-zinc-700" />
+        </div>
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-3 px-4 text-sm font-semibold">
           <Link
             href="#contact"
             className="group w-44 text-center bg-indigo-900 text-white py-2.5 flex justify-center items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-indigo-950 active:scale-105 transition"
@@ -38,10 +45,6 @@ const HeroBanner = ({
               ✧<span className="mx-1">{DownloadLabel}</span>✧
             </a>
           </button>
-
-          {/*  href="/CV.pdf"
-            download */}
-
           {/* SOCIALS */}
           <div className="flex flex-row items-center justify-center gap-2">
             {/* LINKEDIN */}
@@ -86,7 +89,6 @@ const HeroBanner = ({
             </Link>
           </div>
         </div>
-        {/* <Icons/> */}
       </div>
     </section>
   );

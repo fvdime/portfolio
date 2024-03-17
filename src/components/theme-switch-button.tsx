@@ -8,7 +8,7 @@ const ThemeSwitchButton = () => {
 
   return (
     <button
-      className="fixed right-4 bottom-4 bg-gray-200 rounded-full p-2.5 border border-gray-300 backdrop-blur-md shadow-lg hover:scale-110 active:scale-105 transition-all ease-in duration-500 dark:bg-white/10 dark:border-gray-100/30"
+      className="fixed right-4 bottom-4 bg-gray-200 rounded-full p-2.5 border border-gray-300 backdrop-blur-md shadow-lg hover:scale-110 active:scale-105 transition-all ease-in duration-500 dark:bg-white/10 dark:border-gray-100/30 z-[99]"
       onClick={toggleTheme}
     >
       {theme === "light" ? (
