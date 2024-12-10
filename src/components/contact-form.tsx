@@ -5,23 +5,7 @@ import Image from "next/image";
 import React from "react";
 import toast from "react-hot-toast";
 
-type ContactProps = {
-  Title: string;
-  Description: string;
-  Email: string;
-  TextArea: string;
-  ButtonLabel: string;
-  Thanks: string;
-};
-
-const ContactForm = ({
-  Title,
-  Description,
-  Email,
-  TextArea,
-  ButtonLabel,
-  Thanks,
-}: ContactProps) => {
+const ContactForm = () => {
 
   const handleSubmit = async (event: any) => {
     event.preventDefault();
@@ -51,11 +35,11 @@ const ContactForm = ({
           {/* ✦ . ⁺  . ✦ . ⁺ . ✦ */}
           ˚｡⋆°.˚.𐀔˚.★⋆.˚✭*.
         </pre>
-        <h1 className="text-center uppercase font-bold text-2xl">{Title}</h1>
+        <h1 className="text-center uppercase font-bold text-2xl">Let s keep in touch!</h1>
         <pre>˚✦.˚.❀˚.★⋆♱.˚*;༊</pre>
       </span>
       <p className="text-gray-700 dark:text-white/90 text-sm text-center">
-        {Description}
+      Please Don’t Hesitate to Contact Me.
       </p>
       <form
         className="mt-4 flex flex-col dark:text-black"
@@ -67,12 +51,12 @@ const ContactForm = ({
           type="email"
           required
           maxLength={500}
-          placeholder={Email}
+          placeholder="Email"
         />
         <textarea
           className="h-48 my-2 rounded-lg border border-zinc-300 p-4 dark:bg-white/10 dark:border-white/20 dark:focus:bg-opacity-100 transition-all dark:outline-none placeholder:text-sm text-sm dark:text-white"
           name="message"
-          placeholder={TextArea}
+          placeholder="Your Message"
           required
           maxLength={5000}
         />
@@ -80,20 +64,13 @@ const ContactForm = ({
           type="submit"
           className="w-full bg-indigo-900 text-white py-2.5 rounded-full outline-none hover:bg-indigo-950 transition duration-300 shadow hover:shadow-lg focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium text-sm ark:bg-blue-600 ark:hover:bg-blue-700 ark:focus:ring-blue-800 mt-4"
         >
-          {ButtonLabel}
+          Send
         </button>
       </form>
 
       <div className="mt-16 w-full h-full flex flex-col  lg:flex-row justify-between items-center px-16 lg:px-0 gap-4">
-        <Image
-          src="/3.jpg"
-          width={256}
-          height={256}
-          alt="img"
-          className="h-auto w-auto object-cover"
-        />
         <span className="text-center lg:text-end font-semibold text-4xl">
-          {Thanks}
+        Thank you for your attention!
         </span>
       </div>
     </div>

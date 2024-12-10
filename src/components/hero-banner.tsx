@@ -1,21 +1,7 @@
-"use client";
-
 import React from "react";
-import { Link } from "./navigation-link";
+import Link from "next/link";
 
-type HeroBannerProps = {
-  Title: string;
-  Description: string;
-  ContactLabel: string;
-  DownloadLabel: string;
-};
-
-const HeroBanner = ({
-  Title,
-  Description,
-  ContactLabel,
-  DownloadLabel,
-}: HeroBannerProps) => {
+const HeroBanner = () => {
   return (
     <section id="home" className="h-[90vh] md:h-[85vh] relative">
       <div className="w-64 h-[70vh] rounded-full bg-indigo-200 dark:bg-zinc-800 absolute z-[-1] top-1/4 left-0 translate-x-[-20%] translate-y-[-40%] blur-[96px] rotate-12 flex dark:hidden" />
@@ -23,9 +9,9 @@ const HeroBanner = ({
       <div className="w-64 h-[40vh] lg:h-full rounded-full dark:bg-indigo-950 absolute z-[-1] top-1/4 right-0 md:right-4 translate-x-[-50%] translate-y-[-50%] blur-[96px] rotate-45 hidden dark:flex" />
 
       <div className="max-w-screen-lg mx-auto h-full flex flex-col justify-center items-center pt-16">
-        <h1 className="uppercase font-bold text-2xl">{Title}</h1>
+        <h1 className="uppercase font-bold text-2xl">Hi I am Fadime!</h1>
         <h1 className="mb-8 mt-4 px-8 lg:text-2xl font-medium !leading-[1.5] text-xl text-center">
-          {Description}
+        I am a computer engineering student with a keen interest in becoming a proficient full-stack developer. I enjoy building websites and apps. My current focus is Next.js(React)
         </h1>
         <div className="mb-8 w-full flex flex-row items-center gap-2 px-8">
           <span className="border-b w-full border-gray-400 dark:border-zinc-700" />
@@ -37,12 +23,12 @@ const HeroBanner = ({
             href="#contact"
             className="group w-44 text-center bg-indigo-900 text-white py-2.5 flex justify-center items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-indigo-950 active:scale-105 transition"
           >
-            ✦<span className="mx-1">{ContactLabel}</span>✦
+            ✦<span className="mx-1">Contact me</span>✦
           </Link>
 
           <button className="group bg-white w-44 py-2.5 flex items-center justify-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer dark:bg-white/10">
             <a href="/Fadime-Dogrul-Resume.pdf" download>
-              ✧<span className="mx-1">{DownloadLabel}</span>✧
+              ✧<span className="mx-1">Download CV</span>✧
             </a>
           </button>
           {/* SOCIALS */}
