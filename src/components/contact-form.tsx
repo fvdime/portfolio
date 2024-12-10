@@ -1,17 +1,16 @@
 "use client";
 
 import { sendEmail } from "@/actions/email.action";
-import Image from "next/image";
 import React from "react";
 import toast from "react-hot-toast";
+import { Input, TextArea } from "merelyui";
 
 const ContactForm = () => {
-
   const handleSubmit = async (event: any) => {
     event.preventDefault();
 
     const formData = new FormData(event.target);
-    
+
     const { data, error } = await sendEmail(formData);
 
     if (error) {
@@ -24,55 +23,46 @@ const ContactForm = () => {
     // Reset the form after successful submission
     event.target.reset();
   };
-  
+
   return (
-    <div
-      id="contact"
-      className="max-w-screen-sm mx-auto px-16 lg:px-0 py-16 scroll-mt-24"
-    >
-      <span className="w-full flex flex-col md:flex-row justify-evenly items-center my-4 gap-4 md:gap-1">
-        <pre>
-          {/* ✦ . ⁺  . ✦ . ⁺ . ✦ */}
-          ˚｡⋆°.˚.𐀔˚.★⋆.˚✭*.
-        </pre>
-        <h1 className="text-center uppercase font-bold text-2xl">Let s keep in touch!</h1>
-        <pre>˚✦.˚.❀˚.★⋆♱.˚*;༊</pre>
-      </span>
-      <p className="text-gray-700 dark:text-white/90 text-sm text-center">
-      Please Don’t Hesitate to Contact Me.
-      </p>
+    <div className="w-full h-full flex flex-col items-center justify-center text-white dark:text-black">
+      <h1 className="uppercase font-bold text-2xl">
+        I would love to hear from you!
+      </h1>
       <form
-        className="mt-4 flex flex-col dark:text-black"
+        className="w-full h-full flex flex-col dark:text-black mt-8"
         onSubmit={handleSubmit}
       >
-        <input
-          className="py-2 px-4 rounded-lg dark:bg-white/10 border border-zinc-300 dark:border-white/20 dark:focus:bg-opacity-100 transition-all dark:outline-none placeholder:text-sm text-sm dark:text-white"
+        <Input
+          htmlFor="email"
+          underline
+          transparent
+          fullWidth
           name="sender"
           type="email"
           required
           maxLength={500}
           placeholder="Email"
+          style="text-white dark:text-black"
         />
-        <textarea
-          className="h-48 my-2 rounded-lg border border-zinc-300 p-4 dark:bg-white/10 dark:border-white/20 dark:focus:bg-opacity-100 transition-all dark:outline-none placeholder:text-sm text-sm dark:text-white"
+        <TextArea
+          htmlFor="message"
+          underline
+          transparent
+          fullWidth
           name="message"
           placeholder="Your Message"
           required
           maxLength={5000}
+          style="text-white dark:text-black"
         />
         <button
           type="submit"
-          className="w-full bg-indigo-900 text-white py-2.5 rounded-full outline-none hover:bg-indigo-950 transition duration-300 shadow hover:shadow-lg focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium text-sm ark:bg-blue-600 ark:hover:bg-blue-700 ark:focus:ring-blue-800 mt-4"
+          className="w-full bg-zinc-100 text-black py-2.5 rounded outline-none hover:bg-zinc-200 transition duration-500 shadow focus:ring-2 scale-100 hover:scale-[0.99] active:scale-[0.99] focus:outline-none focus:ring-blue-200 font-medium text-sm dark:text-white dark:bg-zinc-950 dark:hover:bg-zinc-900 mt-4"
         >
           Send
         </button>
       </form>
-
-      <div className="mt-16 w-full h-full flex flex-col  lg:flex-row justify-between items-center px-16 lg:px-0 gap-4">
-        <span className="text-center lg:text-end font-semibold text-4xl">
-        Thank you for your attention!
-        </span>
-      </div>
     </div>
   );
 };

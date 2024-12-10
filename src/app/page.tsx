@@ -1,12 +1,12 @@
-import ContactForm from '@/components/contact-form';
+import Header from '@/components/header';
 import HeroBanner from '@/components/hero-banner';
-import Navbar from '@/components/navbar';
 import Projects from '@/components/projects';
 
 export default function HomePage() {
   return (
     <>
-    <HeroBanner/>
+      <Header/>
+      <HeroBanner/>
       <Projects/>
     </>
   );
