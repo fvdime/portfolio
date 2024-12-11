@@ -16,13 +16,13 @@ const data = [
           and clear explanations. Whether you are a student or an experienced
           developer, you&apos;ll find it useful!
         </h1>
-        <div className="w-full grid grid-cols-2 grid-rows-3 md:grid-cols-6 md:grid-rows-1 justify-between items-center gap-4 py-4">
+        <div className="w-full grid grid-cols-2 grid-rows-3 md:grid-cols-6 md:grid-rows-1 justify-between items-center gap-4 my-8">
           <h3>✜ Next JS</h3>
           <h3>✜ Javascript</h3>
           <h3>✜ MerelyUI</h3>
           <h3>✜ Tailwind CSS</h3>
         </div>
-        <div className="w-full flex flex-row justify-start items-center my-4 gap-4">
+        <div className="w-full flex flex-row justify-start items-center gap-4">
           <Link
             href="https://merelyui.vercel.app/components/quickstart"
             target="_blank"
@@ -36,7 +36,7 @@ const data = [
             <Button>Source Code</Button>
           </Link>
         </div>
-        <div className="w-full flex flex-col md:flex-row justify-between items-center gap-1 mb-4 h-full relative">
+        <div className="w-full flex flex-col md:flex-row justify-between items-center gap-1 my-4 h-full relative">
           <div className="w-full h-52 md:h-72 relative">
             <Image
               src="/doc-one.png"
@@ -71,49 +71,23 @@ const data = [
       <section className="px-2 py-4">
         <h1 className="text-xl md:text-2xl lg:text-3xl font-medium">
           MerelyUI is a React UI component library. Open-source, free, and
-          customizable. There are twenty-seven components that are ready to
-          use.Lightweight and fast, customizable components, responsive Design
-          and easy to use.
+          customizable. There are twenty-seven components that are ready to use.
+          Lightweight and fast, customizable components, responsive Design and
+          easy to use. Also, MerelyUI is used on this website.
         </h1>
-        <div className="w-full grid grid-cols-2 grid-rows-3 md:grid-rows-1 md:grid-cols-6 justify-between items-center gap-4 py-4">
+        <div className="w-full grid grid-cols-2 grid-rows-3 md:grid-rows-1 md:grid-cols-6 justify-between items-center gap-4 py-8">
           <h3>✜ Vite</h3>
           <h3>✜ Storybook</h3>
           <h3>✜ Typescript</h3>
           <h3>✜ Tailwind CSS</h3>
         </div>
-        <div className="w-full flex flex-row justify-start items-center my-4 gap-4">
+        <div className="w-full flex flex-row justify-start items-center mb-4 gap-4">
           <Link href="https://www.npmjs.com/package/merelyui" target="_blank">
             <Button>NPM</Button>
           </Link>
           <Link href="https://github.com/fvdime/merelyui" target="_blank">
             <Button>Source Code</Button>
           </Link>
-        </div>
-        <div className="w-full flex flex-col md:flex-row justify-between items-center gap-1 mb-4 h-full relative">
-          <div className="w-full h-52 md:h-72 relative">
-            <Image
-              src="/doc-one.png"
-              alt="merelyui-documentation"
-              fill
-              className="w-full h-full rounded absolute object-contain"
-            />
-          </div>
-          <div className="w-full h-52 md:h-72 relative">
-            <Image
-              src="/doc-two.png"
-              alt="merelyui-documentation"
-              fill
-              className="w-full h-full rounded absolute object-contain"
-            />
-          </div>
-          <div className="w-full h-52 md:h-72 relative">
-            <Image
-              src="/doc-three.png"
-              alt="merelyui-documentation"
-              fill
-              className="w-full h-full rounded absolute object-contain"
-            />
-          </div>
         </div>
       </section>
     ),
@@ -127,7 +101,7 @@ const data = [
           can be categorized using hashtags. Editing profiles, searching users
           by username, and following other users are all possible.
         </h1>
-        <div className="w-full grid grid-cols-2 grid-rows-3 md:grid-rows-1 md:grid-cols-6 justify-between items-center gap-4 py-4">
+        <div className="w-full grid grid-cols-2 grid-rows-3 md:grid-rows-1 md:grid-cols-6 justify-between items-center gap-4 my-8">
           <h3>✜ Next JS</h3>
           <h3>✜ Next Server Actions</h3>
           <h3>✜ Amazon S3</h3>
@@ -135,7 +109,7 @@ const data = [
           <h3>✜ Mongo DB</h3>
           <h3>✜ Tailwind CSS</h3>
         </div>
-        <div className="w-full flex flex-row justify-start items-center my-4 gap-4">
+        <div className="w-full flex flex-row justify-start items-center gap-4">
           <Link href="https://destructive-five.vercel.app/" target="_blank">
             <Button>See Live</Button>
           </Link>
@@ -143,7 +117,7 @@ const data = [
             <Button>Source Code</Button>
           </Link>
         </div>
-        <div className="w-full flex flex-col md:flex-row justify-between items-center gap-1 mb-4 h-full relative">
+        <div className="w-full flex flex-col md:flex-row justify-between items-center gap-1 my-4 h-full relative">
           <div className="w-full h-52 md:h-72 relative">
             <Image
               src="/des-one.png"
@@ -182,7 +156,7 @@ const data = [
           concepts. Here, we believe in the power of ideas to shape the world
           around us and ignite change.
         </h1>
-        <div className="w-full grid grid-cols-2 grid-rows-3 md:grid-rows-1 md:grid-cols-6 justify-between items-center gap-4 py-4">
+        <div className="w-full grid grid-cols-2 grid-rows-3 md:grid-rows-1 md:grid-cols-6 justify-between items-center gap-4 my-8">
           <h3>✜ Next JS</h3>
           <h3>✜ Typescript</h3>
           <h3>✜ Amazon S3</h3>
@@ -190,7 +164,7 @@ const data = [
           <h3>✜ PostgreSQL</h3>
           <h3>✜ Docker</h3>
         </div>
-        <div className="w-full flex flex-row justify-start items-center my-4 gap-4">
+        <div className="w-full flex flex-row justify-start items-center gap-4">
           <Link href="https://eloquent-ruddy.vercel.app/" target="_blank">
             <Button>See Live</Button>
           </Link>
@@ -198,7 +172,7 @@ const data = [
             <Button>Source Code</Button>
           </Link>
         </div>
-        <div className="w-full flex flex-col md:flex-row justify-between items-center gap-1 mb-4 h-full relative">
+        <div className="w-full flex flex-col md:flex-row justify-between items-center gap-1 my-4 h-full relative">
           <div className="w-full h-52 md:h-72 relative">
             <Image
               src="/el-one.png"
@@ -230,7 +204,7 @@ const data = [
   {
     title: "Rendezvous",
     content: (
-      <section className="p-4">
+      <section className="px-2 py-4">
         <h1 className="text-xl md:text-2xl lg:text-3xl font-medium">
           Rendezvous, our final thesis project, was developed using Next.js,
           PostgreSQL, and Prisma. It enables users to create either business or
@@ -239,7 +213,7 @@ const data = [
           tasks, boost productivity, and manage schedules efficiently in one
           place.
         </h1>
-        <div className="w-full grid grid-cols-2 grid-rows-3 md:grid-rows-1 md:grid-cols-6 justify-between items-center gap-4 py-4">
+        <div className="w-full grid grid-cols-2 grid-rows-3 md:grid-rows-1 md:grid-cols-6 justify-between items-center gap-4 my-8">
           <h3>✜ Next JS</h3>
           <h3>✜ Next Server Actions</h3>
           <h3>✜ Amazon S3</h3>
@@ -247,7 +221,7 @@ const data = [
           <h3>✜ PostgreSQL</h3>
           <h3>✜ Docker</h3>
         </div>
-        <div className="w-full flex flex-row justify-start items-center my-4 gap-4">
+        <div className="w-full flex flex-row justify-start items-center gap-4">
           <Link href="https://rendezvous-mocha.vercel.app/" target="_blank">
             <Button>See Live</Button>
           </Link>
@@ -258,7 +232,7 @@ const data = [
             <Button>Source Code</Button>
           </Link>
         </div>
-        <div className="w-full flex flex-col md:flex-row justify-between items-center gap-1 mb-4 h-full relative">
+        <div className="w-full flex flex-col md:flex-row justify-between items-center gap-1 my-4 h-full relative">
           <div className="w-full h-52 md:h-72 relative">
             <Image
               src="/rend-one.jpg"
@@ -297,7 +271,7 @@ const data = [
           by my hands and made with -`♡´-. TheFaya—where creativity knows no
           bounds.
         </h1>
-        <div className="w-full grid grid-cols-2 grid-rows-3 md:grid-rows-1 md:grid-cols-6 justify-between items-center gap-4 py-4">
+        <div className="w-full grid grid-cols-2 grid-rows-3 md:grid-rows-1 md:grid-cols-6 justify-between items-center gap-4 my-8">
           <h3>✜ Next JS</h3>
           <h3>✜ Javascript</h3>
           <h3>✜ Amazon S3</h3>
@@ -305,12 +279,12 @@ const data = [
           <h3>✜ Mongo DB</h3>
           <h3>✜ Tailwind CSS</h3>
         </div>
-        <div className="w-full flex flex-row justify-start items-center my-4">
+        <div className="w-full flex flex-row justify-start items-center">
           <Link href="https://github.com/fvdime/art-exhibition" target="_blank">
             <Button>Source Code</Button>
           </Link>
         </div>
-        <div className="w-full flex flex-col md:flex-row justify-between items-center gap-1 mb-4 h-full relative">
+        <div className="w-full flex flex-col md:flex-row justify-between items-center gap-1 my-4 h-full relative">
           <div className="w-full h-52 md:h-72 relative">
             <Image
               src="/the-faya-one.png"
@@ -342,13 +316,13 @@ const data = [
   {
     title: "MOAI",
     content: (
-      <section className="p-4">
+      <section className="px-2 py-4">
         <h1 className="text-xl md:text-2xl lg:text-3xl font-medium">
           MOAI, where we focus on users asking questions and receiving answers,
           tried to work in an interactive and information-sharing environment.
           We wanted to provide the best user experience.
         </h1>
-        <div className="w-full grid grid-cols-2 grid-rows-3 md:grid-rows-1 md:grid-cols-6 justify-between items-center gap-4 py-4">
+        <div className="w-full grid grid-cols-2 grid-rows-3 md:grid-rows-1 md:grid-cols-6 justify-between items-center gap-4 my-8">
           <h3>✜ Next JS</h3>
           <h3>✜ Next Server Actions</h3>
           <h3>✜ Next-Intl</h3>
@@ -356,7 +330,7 @@ const data = [
           <h3>✜ Mongo DB</h3>
           <h3>✜ Tailwind CSS</h3>
         </div>
-        <div className="w-full flex flex-row justify-start items-center my-4 gap-4">
+        <div className="w-full flex flex-row justify-start items-center gap-4">
           <Link href="https://moai-ten.vercel.app/en" target="_blank">
             <Button>See Live</Button>
           </Link>
@@ -367,7 +341,7 @@ const data = [
             <Button>Source Code</Button>
           </Link>
         </div>
-        <div className="w-full flex flex-col md:flex-row justify-between items-center gap-1 mb-4 h-full relative">
+        <div className="w-full flex flex-col md:flex-row justify-between items-center gap-1 my-4 h-full relative">
           <div className="w-full h-52 md:h-72 relative">
             <Image
               src="/moai.png"
@@ -406,16 +380,16 @@ const data = [
           Read, Update, Delete) functionality. It uses the Gin web framework, a
           lightweight and fast HTTP framework for building APIs. It implements
           JSON Web Tokens (JWT) for secure user authentication. And it provides
-          endpoints for basic CRUD operations, allowing you to create, retrieve,
+          endpoints for basic CRUD operations, allowing you to create, read,
           update, and delete data.
         </h1>
-        <div className="w-full grid grid-cols-2 grid-rows-3 md:grid-rows-1 md:grid-cols-6 justify-between items-center gap-4 py-4">
+        <div className="w-full grid grid-cols-2 grid-rows-3 md:grid-rows-1 md:grid-cols-6 justify-between items-center gap-4 my-8">
           <h3>✜ Go</h3>
           <h3>✜ Gin</h3>
           <h3>✜ Mongo DB</h3>
           <h3>✜ JWT</h3>
         </div>
-        <div className="w-full flex flex-row justify-start items-center my-4 gap-4">
+        <div className="w-full flex flex-row justify-start items-center mb-4 gap-4">
           <Link
             href="https://github.com/fvdime/keen-go-backend"
             target="_blank"
@@ -435,15 +409,14 @@ const data = [
           NestJS alongside tools and frameworks for efficient API development.
           The backend is implemented with NestJS. It utilizes Prisma as the
           Object-Relational Mapping (ORM) tool for database interactions. It
-          implements Create, Read, Update, and Delete operations, likely exposed
-          through RESTful APIs.
+          implements create, read, update, and delete operations.
         </h1>
-        <div className="w-full grid grid-cols-2 grid-rows-3 md:grid-rows-1 md:grid-cols-6 justify-between items-center gap-4 py-4">
+        <div className="w-full grid grid-cols-2 grid-rows-3 md:grid-rows-1 md:grid-cols-6 justify-between items-center gap-4 my-8">
           <h3>✜ Nest Js</h3>
           <h3>✜ PostgreSQL</h3>
           <h3>✜ Docker</h3>
         </div>
-        <div className="w-full flex flex-row justify-start items-center my-4 gap-4">
+        <div className="w-full flex flex-row justify-start items-center mb-4 gap-4">
           <Link href="https://github.com/fvdime/douzo-backend" target="_blank">
             <Button>Source Code</Button>
           </Link>

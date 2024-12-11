@@ -13,11 +13,14 @@ const HeroBanner = () => {
                 and I&apos;m a<br />
               </span>
             </div>
+            <h1 className="w-1/2 text-sm text-end uppercase md:hidden">
+              and I am a
+            </h1>
             <h1 className="font-semibold text-5xl md:text-7xl italic uppercase">
               Full Stack Developer
             </h1>
-            <div className="w-full flex flex-row justify-center md:justify-end items-end gap-4 uppercase">
-              <span className="text-xs hidden md:flex">
+            <div className="w-full flex flex-col md:flex-row justify-center items-center md:justify-end md:items-end gap-4 uppercase">
+              <span className="text-xs flex text-left">
                 I&apos;d say that I enjoy developing
                 <br />
                 mobile and web applications.
